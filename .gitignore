@@ -1,0 +1,58 @@
+# ─── Logs ───────────────────────────────────────────────────
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── Dependencies ────────────────────────────────────────────
+node_modules
+server/node_modules
+
+# ─── Build output ────────────────────────────────────────────
+dist
+dist-ssr
+build
+
+# ─── Environment variables (NEVER commit secrets) ────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+
+# ─── Firebase service account keys ──────────────────────────
+firebase-service-account.json
+server/firebase-service-account.json
+*.serviceAccount.json
+
+# ─── Editor / IDE directories ────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── OS files ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Bolt AI scaffolding metadata ────────────────────────────
+.bolt
+
+# ─── Personal / auto-generated docs (not for repo) ───────────
+HOW_TO_RUN.md
+PROJECT_DOCS_PART1.md
+PROJECT_DOCS_PART2_FIREBASE.md
+PROJECT_DOCS_PART3.md
+SETUP_GUIDE.md
+"diagram toda.xml"
+
+# ─── Misc ────────────────────────────────────────────────────
+*.local
